@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: whitesmoke;
+}
+.calula{
+    width: 350px;
+    margin: auto;
+    margin-top: 1rem;
+    height: auto;
+}
+.container{
+    width: 350px;
+    height: auto;
+    background: #000;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 3px 15px #000 ;
+}
+.calulator{
+    width: 100%;
+}
+.text{
+    width: 90%;
+    margin: auto;
+    padding-top: 3rem;
+    border-radius: 10px;
+   color: #000;
+
+
+}
+.value{
+    margin: auto;
+    height: 70px;
+    border-radius: 10px;
+   color: #000;
+
+}
+.input{
+    width: 100%;
+   color: #fff;
+   border-radius: 20px;
+   background: #0a0a0a;
+   border: 5px solid #000;
+   height: 80px;
+  
+}
+input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    color: #fff;
+    background: #0a0909;
+   border: 2px solid #0a0a0a;
+   box-shadow: 3px 3px 15px #0a0909;
+   outline: none;
+   padding-left: 1rem;
+   font-size: 1.3rem;
+  
+}
+table{
+    margin-top: 1.5rem;
+}
+tr td{
+    padding: 1rem;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #0a0909;
+    outline: none;
+    font-size: 1.2rem;
+    background: #0a0a0a;
+    color: #fff;
+    cursor: pointer;
+}
+.dot{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    font-weight: bolder;
+}
+.color{
+    color: goldenrod;
+}
+
+/* second contianer */
+
+.container.container-2{
+    width: 350px;
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 3px 15px #f1e4e4 ;
+    display:none;
+}
+.calulator.calulator-2{
+    width: 100%;
+}
+.text-2{
+    width: 90%;
+    margin: auto;
+    padding-top: 3rem;
+    border-radius: 10px;
+   color: #fff;
+
+
+}
+.value.value-2{
+    margin: auto;
+    height: 70px;
+    border-radius: 10px;
+   color: #fff;
+
+}
+table{
+    margin-top: 1.5rem;
+}
+tr td{
+    padding: 1rem;
+}
+button.bu{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #f1e4e4;
+    outline: none;
+    font-size: 1.2rem;
+    background: #f1e4e4;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+.dot.dot-2{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    font-weight: bolder;
+   background: #f1e4e4;
+   border: 2px solid #f1e4e4;
+   color: #000;
+
+}
+.color.color-2{
+    color: blue;
+   background: #f1e4e4;
+   border: 2px solid #f1e4e4;
+   font-weight: bold;
+   box-shadow: 13px 3px 15px #fdfdfd;
+
+}
+
+/* dark mod light mid css */
+
+.dark{
+    width: 120px;
+    height: 45px;
+    border: 2px solid #0a0a0a;
+    background: #0a0909;
+    border-radius: 5px;
+
+
+}
+.light{
+    width: 120px;
+    height: 45px;
+    border: 2px solid #f1e4e4;
+    background: #f1e4e4;
+    color: #000;
+    border-radius: 5px;
+}
+/* java css */
+
+.calula.show .container{
+    display: none;
+   
+}
+.calula.show .container-2{
+    display: block;
+
+}
+.light{
+    display: none;
+}
+.dark.hide{
+    display: none;
+}
+.light.li{
+    display: block;
+}
+input.input-3{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    color: #000;
+    background: #f1e4e4;
+   border: 2px solid #f1e4e4;
+   box-shadow: 3px 3px 15px #ffff;
+   outline: none;
+   padding-left: 1rem;
+   font-size: 1.3rem;
+  
+}
+.input.input-2{
+    width: 100%;
+   color: #000;
+   border-radius: 20px;
+   background: #fff;
+   border: 5px solid #fff;
+   height: 80px;
+  
+}

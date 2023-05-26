@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="image/logo.jpeg" type="logo.jpeg">
+    <link rel="stylesheet" href="css/cla.css">
+    <script src="https://kit.fontawesome.com/0962378758.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="calula">
+
+<div class="container">
+    <div>
+        <button class="dark">Light Mode</button>
+            <button class="light">Dark Mode</button>
+    </div>
+
+<div class="calulator">
+
+
+<div class="text">
+<div class="value">
+    <div class="input">
+        <input type="text" id="ca" placeholder="0" readonly>
+    </div>
+</div>
+</div>
+
+
+<table>
+
+<tr>
+    <td><button onclick="ca.value='' " class="color">AC</button></td>
+    <td><button onclick=" ca.value+='/' " class="color">/</button></td>
+    <td><button onclick=" ca.value+='*' " class="color"><i class="fa-solid fa-xmark"></i></button></td>
+    <td><button onclick=" ca.value = ca.value.substring(0 , ca.value.length -1)  " class="color">DEL</button></td>
+
+</tr>
+
+<tr>
+    <td><button onclick=" ca.value+='7' ">7</button></td>
+    <td><button onclick=" ca.value+='8' ">8</button></td>
+    <td><button onclick=" ca.value+='9' ">9</button></td>
+    <td><button onclick=" ca.value+='-' " class="color">-</button></td>
+
+</tr>
+
+<tr>
+    <td><button onclick=" ca.value+='4' ">4</button></td>
+    <td><button onclick=" ca.value+='5' ">5</button></td>
+    <td><button onclick=" ca.value+='6' ">6</button></td>
+    <td><button onclick=" ca.value+='+' " class="color">+</button></td>
+
+</tr>
+
+<tr>
+    <td><button onclick=" ca.value+='1' ">1</button></td>
+    <td><button onclick=" ca.value+='2' ">2</button></td>
+    <td><button onclick=" ca.value+='3' ">3</button></td>
+    <td><button onclick=" ca.value+='%' " class="color">%</button></td>
+
+</tr>
+
+<tr>
+    <td><button onclick=" ca.value+='00' ">00</button></td>
+    <td><button onclick=" ca.value+='0' ">0</button></td>
+    <td><button onclick=" ca.value+='.' " class="dot">.</button></td>
+    <td><button onclick=" ca.value=eval(ca.value) " class="color">=</button></td>
+
+</tr>
+
+</table>
+
+
+
+</div>
+
+</div>
+
+
+<!-- <div class="container-2">
+    <div>
+        <button class="light">Dark Mode</button>
+
+    </div>
+<div class="calulator-2">
+
+    <div class="text">
+    <div class="value-2">
+        <div class="input-2">
+            <input type="text" id="va" class="input-3" placeholder="0" readonly>
+        </div>
+    </div>
+    </div>
+    
+    
+    <table>
+    
+    <tr>
+        <td><button onclick="va.value='' " class="color-2">AC</button></td>
+        <td><button onclick=" va.value+='/' " class="color-2">/</button></td>
+        <td><button onclick=" va.value+='*' " class="color-2"><i class="fa-solid fa-xmark"></i></button></td>
+        <td><button onclick=" va.value = va.value.substring(0 , va.value.length -1)  " class="color-2">DEL</button></td>
+    
+    </tr>
+    
+    <tr>
+        <td><button onclick=" va.value+='7' " class="bu">7</button></td>
+        <td><button onclick=" va.value+='8' " class="bu">8</button></td>
+        <td><button onclick=" va.value+='9' " class="bu">9</button></td>
+        <td><button onclick=" va.value+='-' " class="color-2">-</button></td>
+    
+    </tr>
+    
+    <tr>
+        <td><button onclick=" va.value+='4' " class="bu">4</button></td>
+        <td><button onclick=" va.value+='5' " class="bu">5</button></td>
+        <td><button onclick=" va.value+='6' " class="bu">6</button></td>
+        <td><button onclick=" va.value+='+' " class="color-2">+</button></td>
+    
+    </tr>
+    
+    <tr>
+        <td><button onclick=" va.value+='00' " class="bu">00</button></td>
+        <td><button onclick=" va.value+='0' " class="bu">0</button></td>
+        <td><button onclick=" va.value+='.' " class="dot-2">.</button></td>
+        <td><button onclick=" va.value=eval(va.value) " class="color-2">=</button></td>
+    
+    </tr>
+    
+    </table>
+    
+    
+    
+    </div>
+    
+</div> -->
+
+
+
+
+</section>
+
+<script src="java/script.js"></script>
+
+</body>
+</html>
